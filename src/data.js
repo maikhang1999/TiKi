@@ -273,3 +273,65 @@ export const Wipgets_List = [
     name: "TicketBox"
   }
 ];
+export const CategoryProduct_List = [
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+  {
+    link:"https://tiki.vn/cham-soc-nha-cua/c15078",
+    img:"https://salt.tikicdn.com/cache/280x280/ts/product/98/18/8c/cde15caec46908066834b9652c79a3ce.jpg",
+    name:"Chăm sóc nhà cửa",
+
+  },
+]

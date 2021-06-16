@@ -95,7 +95,7 @@ function SamplePrevArrow(props) {
     </div>
   );
 }
-export default function SlickSlider() {
+export default function SlickSlider(props) {
   var settings = {
     dots: true,
     speed: 500,
@@ -106,9 +106,10 @@ export default function SlickSlider() {
     prevArrow: <SamplePrevArrow />
   };
   const classes = useStyles();
+ 
   return (
     <div className={classes.deal_items}>
-      <Slider ref={(c) => (this.slider = c)} {...settings}>
+      <Slider  {...settings}>
         {deal_items.map((item, index) => {
           return (
             <React.Fragment>

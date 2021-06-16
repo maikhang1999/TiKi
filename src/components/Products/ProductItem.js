@@ -3,6 +3,7 @@ import Container from "@material-ui/core/Container";
 import { makeStyles } from "@material-ui/core/styles";
 import GradeIcon from "@material-ui/icons/Grade";
 import { withStyles } from "@material-ui/styles";
+import { useHistory, useParams } from 'react-router-dom'
 const useStyles = makeStyles((theme) => ({
   product_item: {
     textDecoration: "none",
@@ -93,9 +94,13 @@ const useStyles = makeStyles((theme) => ({
 export default function ProductItem(props) {
   const classes = useStyles();
   const product = props.product;
+  const history = useHistory();
+  const handleClick = (id)=>{
+    history.push(`/detail/${id}`)
+  }
   return (
-    <div style={{ width: "20%" }}>
-      <a href={product.link} className={classes.product_item}>
+    <div style={{ width: "20%" }} onClick={()=>handleClick(product.id)}>
+      <div className={classes.product_item}>
         <span className={classes.wrapItem}>
           <div>
             <div className={classes.thumbnail}>
@@ -172,7 +177,7 @@ export default function ProductItem(props) {
             </div>
           </div>
         </span>
-      </a>
+      </div>
     </div>
   );
 }

@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     position: "sticky",
     top: "0px",
     zIndex: 999,
-    backgroundColor: "color",
+    backgroundColor: "white",
     borderRadius: "4px 4px 0px 0px"
   },
   tabActive: {
