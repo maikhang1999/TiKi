@@ -33,7 +33,7 @@ export default function Slider() {
   return (
     <Container className={classes.WrapSlider}>
       <Carousel
-        interval={3000}
+        interval={5000}
         animation="slide"
         NextIcon={<ArrowForwardIosIcon />}
         PrevIcon={<ArrowBackIosIcon />}
